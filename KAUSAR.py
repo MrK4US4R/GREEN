@@ -14,12 +14,12 @@ bit = platform.architecture()[0]
 
 if bit == "64bit":
 
-        from KAUSAR_64 import m
+        from GREEN_64 import m
 
         m()
 
 elif bit == "32bit":
 
-        from KAUSAR_32 import m
+        from m import m
 
         m()
