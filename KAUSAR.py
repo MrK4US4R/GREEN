@@ -20,6 +20,6 @@ if bit == "64bit":
 
 elif bit == "32bit":
 
-        from m import m
+        from GREEN_32 import m
 
         m()
